@@ -8,7 +8,7 @@ import time
 # --- Setup ---
 st.set_page_config(
     page_title="SGX Stock Insights",
-    page_icon="�",
+    page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -262,4 +262,3 @@ for i, stock in enumerate(other_stocks):
         </div>
         """, unsafe_allow_html=True)
         st.markdown("---")
-�
